@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adminuser\\source\\repos\\AnalysisFR01\\AnalysisFR01\\AnalysisFR01.csproj": {}
+    "C:\\Users\\adminuser\\Desktop\\PROJECTS\\CONSOLE\\ITCA\\C\\CICLO 3\\PROJECT\\DocumentAnalysis\\AnalysisFR01\\AnalysisFR01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adminuser\\source\\repos\\AnalysisFR01\\AnalysisFR01\\AnalysisFR01.csproj": {
+    "C:\\Users\\adminuser\\Desktop\\PROJECTS\\CONSOLE\\ITCA\\C\\CICLO 3\\PROJECT\\DocumentAnalysis\\AnalysisFR01\\AnalysisFR01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adminuser\\source\\repos\\AnalysisFR01\\AnalysisFR01\\AnalysisFR01.csproj",
+        "projectUniqueName": "C:\\Users\\adminuser\\Desktop\\PROJECTS\\CONSOLE\\ITCA\\C\\CICLO 3\\PROJECT\\DocumentAnalysis\\AnalysisFR01\\AnalysisFR01.csproj",
         "projectName": "AnalysisFR01",
-        "projectPath": "C:\\Users\\adminuser\\source\\repos\\AnalysisFR01\\AnalysisFR01\\AnalysisFR01.csproj",
+        "projectPath": "C:\\Users\\adminuser\\Desktop\\PROJECTS\\CONSOLE\\ITCA\\C\\CICLO 3\\PROJECT\\DocumentAnalysis\\AnalysisFR01\\AnalysisFR01.csproj",
         "packagesPath": "C:\\Users\\adminuser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adminuser\\source\\repos\\AnalysisFR01\\AnalysisFR01\\obj\\",
+        "outputPath": "C:\\Users\\adminuser\\Desktop\\PROJECTS\\CONSOLE\\ITCA\\C\\CICLO 3\\PROJECT\\DocumentAnalysis\\AnalysisFR01\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

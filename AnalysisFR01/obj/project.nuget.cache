@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pQwODCtOmitEAJU4xk6C8yc2WZlqH689Q3QjSU0Gt7ANRINqRUJfOH4Mo29u2RIoNmA5vJdLPUxJGFgVlgnilg==",
+  "dgSpecHash": "jhm5yyCAE/ZHoAAsIXQsCLijHhrBUYZBT6dUZYKHLA1SESMfLatQycz9dcHW3gEaxSVONsRcnn2UWxdc2aiVsQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adminuser\\source\\repos\\AnalysisFR01\\AnalysisFR01\\AnalysisFR01.csproj",
+  "projectFilePath": "C:\\Users\\adminuser\\Desktop\\PROJECTS\\CONSOLE\\ITCA\\C\\CICLO 3\\PROJECT\\DocumentAnalysis\\AnalysisFR01\\AnalysisFR01.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adminuser\\.nuget\\packages\\azure.ai.formrecognizer\\4.0.0-beta.4\\azure.ai.formrecognizer.4.0.0-beta.4.nupkg.sha512",
     "C:\\Users\\adminuser\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",

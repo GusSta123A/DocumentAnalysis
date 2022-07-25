@@ -13,25 +13,22 @@ Uri fileUri = new Uri("C:\\Users\\adminuser\\Desktop\\FORMULARIO - Permiso.pdf")
 
 string filePath = "C:\\Users\\adminuser\\Desktop\\FORMULARIO - Permiso.pdf";
 
-using (var stream = new FileStream(filePath, FileMode.Open))
+AnalyzeDocumentOperation operation = await client.StartAnalyzeDocumentFromUriAsync("prebuilt-document", fileUri);
+
+await operation.WaitForCompletionAsync();
+
+AnalyzeResult result = operation.Value;
+
+Console.WriteLine("Detected key-value pairs:");
+
+foreach (DocumentKeyValuePair kvp in result.KeyValuePairs)
 {
-    AnalyzeDocumentOperation operation = await client.StartAnalyzeDocumentFromUriAsync("prebuilt-document", stream);
-
-    await operation.WaitForCompletionAsync();
-
-    AnalyzeResult result = operation.Value;
-
-    Console.WriteLine("Detected key-value pairs:");
-
-    foreach (DocumentKeyValuePair kvp in result.KeyValuePairs)
+    if (kvp.Value == null)
     {
-        if (kvp.Value == null)
-        {
-            Console.WriteLine($"  Found key with no value: '{kvp.Key.Content}'");
-        }
-        else
-        {
-            Console.WriteLine($"  Found key-value pair: '{kvp.Key.Content}' and '{kvp.Value.Content}'");
-        }
+        Console.WriteLine($"  Found key with no value: '{kvp.Key.Content}'");
+    }
+    else
+    {
+        Console.WriteLine($"  Found key-value pair: '{kvp.Key.Content}' and '{kvp.Value.Content}'");
     }
 }
